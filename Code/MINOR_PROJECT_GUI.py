@@ -18,11 +18,6 @@ master.geometry("1920x1080")
 # Giving Title name of Window
 master.title("ATM SECURITY ENHANCEMENT USING COMPUTER VISION")
 
-# Setting backgorund Image
-image = Image.open(r"D:\Chinmay Jain\Subject\ATM Minor project\2818505.jpg")
-bg = ImageTk.PhotoImage(image)
-Label(master, image=bg).place(relwidth=1, relheight=1)
-
 ################################### functions to be created ########################################
 class gui_maker():
     
@@ -37,13 +32,13 @@ class gui_maker():
 
         # loading of classifier for face detection
         # getting prototxtPath file
-        self.prototxtPath = "deploy.prototxt"
+        self.prototxtPath = r".\Model\deploy.prototxt"
         # getting weightsPath file
-        self.weightsPath = "res10_300x300_ssd_iter_140000.caffemodel"
+        self.weightsPath = r".\Model\res10_300x300_ssd_iter_140000.caffemodel"
         self.faceNet = cv2.dnn.readNet(self.prototxtPath, self.weightsPath)
         
         # getting cover model file and loading it 
-        self.cover_model = load_model("mask_detector.model") 
+        self.cover_model = load_model(r".\Model\mask_detector.model") 
     
     def cash_wd():
         return
@@ -118,7 +113,7 @@ label1 = Label(master, text="STATE BANK OF INDIA", font=("Bell MT", 60))
 label1.grid(row=0, column=0, padx=300, pady=100)
 
 # Creating Start Button
-bt1 = Button(master, text="Start \n शुरू ", command=lambda:f.camera_face_detect())
+bt1 = Button(master, text="Start", command=lambda:f.camera_face_detect())
 bt1.grid(row=1, column=0)
 mainloop()
 
