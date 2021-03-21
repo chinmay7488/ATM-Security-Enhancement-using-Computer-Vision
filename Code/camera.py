@@ -10,7 +10,7 @@ from tkinter import *
 import cv2
 from datetime import datetime
 from PIL import Image, ImageTk
-import my_sql as mysql
+import Code.my_sql as mysql
 from datetime import datetime
 
 class faceDetection():
@@ -53,7 +53,7 @@ class faceDetection():
         Button(root, text="Back", command=lambda:root.destroy()).pack()
 
         # accessing camera 
-        vs = VideoStream(src=0).start()  
+        vs = VideoStream(src=1).start()  
 
         while True:
             # reading camera video

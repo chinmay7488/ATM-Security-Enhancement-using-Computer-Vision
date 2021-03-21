@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter.ttk import *
 import time
 import cv2
-import camera
+import Code.camera as camera
 import os
 #from message_box import message_Box as mesg
 from PIL import Image, ImageTk
@@ -107,13 +107,14 @@ class gui_maker():
         #else:
            # mesg.show_error(master=master, text="worng pin")
 
-f = gui_maker()
-# creating label 
-label1 = Label(master, text="STATE BANK OF INDIA", font=("Bell MT", 60))
-label1.grid(row=0, column=0, padx=300, pady=100)
+    def main():
+        f = gui_maker()
+        # creating label 
+        label1 = Label(master, text="STATE BANK OF INDIA", font=("Bell MT", 60))
+        label1.grid(row=0, column=0, padx=300, pady=100)
 
-# Creating Start Button
-bt1 = Button(master, text="Start", command=lambda:f.camera_face_detect())
-bt1.grid(row=1, column=0)
-mainloop()
+        # Creating Start Button
+        bt1 = Button(master, text="Start", command=lambda:f.camera_face_detect())
+        bt1.grid(row=1, column=0)
+        mainloop()
 
