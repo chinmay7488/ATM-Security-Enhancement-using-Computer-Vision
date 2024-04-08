@@ -1,3 +1,8 @@
 from Code.MINOR_PROJECT_GUI import gui_maker
+import traceback
 
-gui_maker.main()
+
+try:
+    gui_maker.main()
+except Exception as ex:
+    traceback.print_exc()
