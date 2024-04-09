@@ -19,3 +19,12 @@ In this project we are developing the software for the enhancement of the ATM ma
 
 To avoid atm robberies and provide security for atm, To secure such a complex system will be even more difficult than design it. And now people just begin to discuss some issues of ATM security. It will provide some experience for us to implement security services in ATM network.
 We thus develop an ATM model that is more reliable in providing security by using facial recognition software. By keeping the time elapsed in the verification process to a negligible amount we even try to maintain the efficiency of this ATM system to a greater degree. Biometrics as means of identifying and authenticating account owners at the Automated Teller Machines gives the needed and much anticipated solution to the problem of illegal transactions. In this paper, we have tried to proffer a solution to the much dreaded issue of fraudulent transactions through Automated Teller Machine by biometrics that can be made possible only when the account holder is physically present. Thus, it eliminates cases of illegal transactions at the ATM points without the knowledge of the authentic owner. Using a biometric feature for identification is strong and it is further fortified when another is used at authentication level. 
+
+<h4><strong>How to run code:</strong></h4>
+<ol>
+    <li>Download and extract zip file.</li>
+    <li>Now install requirement.txt&nbsp;
+        <p><span>pip install -r requirements.txt</span></span></p>
+    </li>
+    <li>Now run main.py file</li>
+</ol>
