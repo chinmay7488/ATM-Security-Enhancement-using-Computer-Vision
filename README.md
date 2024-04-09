@@ -29,4 +29,4 @@ We thus develop an ATM model that is more reliable in providing security by usin
     </li>
     <li>Now run main.py</li>
 </ol>
-<h6><strong>Link to dataset used</strong> <a target="_blank" rel="noopener noreferrer" href="https://www.kaggle.com/datasets/chinmayjain7488/covered-and-not-covered-faces-dataset/settings">https://www.kaggle.com/datasets/chinmayjain7488/covered-and-not-covered-faces-dataset/settings</a></h6>
+<h6><strong>Link to dataset used</strong> <a target="_blank" rel="noopener noreferrer" href="https://www.kaggle.com/datasets/chinmayjain7488/covered-and-not-covered-faces-dataset/settings">https://www.kaggle.com/datasets/chinmayjain7488/covered-and-not-covered-faces-dataset</a></h6>
