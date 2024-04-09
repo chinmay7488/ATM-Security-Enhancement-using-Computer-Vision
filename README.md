@@ -25,7 +25,7 @@ We thus develop an ATM model that is more reliable in providing security by usin
     <li>Download and extract zip.</li>
     <li>
         <p>Now install requirement.txt&nbsp;</p>
-        <p><span style="background-color:rgb(227,230,232);color:rgb(12,13,14);font-family:ui-monospace, &quot;Cascadia Mono&quot;, &quot;Segoe UI Mono&quot;, &quot;Liberation Mono&quot;, Menlo, Monaco, Consolas, monospace;font-size:13px;"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">pip install -r requirements.txt</span></span></p>
+        `pip install -r requirements.txt`
     </li>
     <li>Now run main.py</li>
 </ol>
