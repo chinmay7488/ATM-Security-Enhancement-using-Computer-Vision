@@ -1,2 +1,12 @@
 # avoiding dataset 
 Dataset/*
+#Ignore python files
+Code/__pycache__/*
+#Ignore envir
+venv/*
+
+#Ignore database
+ATMLog.db
+
+#ignore images
+Images/*
