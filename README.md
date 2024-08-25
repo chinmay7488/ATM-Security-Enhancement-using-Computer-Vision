@@ -27,7 +27,7 @@ In this project we are developing the software for the enhancement of the ATM ma
     ```bash
     python -u main.py
     ```
-*<h6><strong>Link to dataset used</strong> <a target="_blank" rel="noopener noreferrer" href="https://www.kaggle.com/datasets/chinmayjain7488/covered-and-not-covered-faces-dataset/settings">https://www.kaggle.com/datasets/chinmayjain7488/covered-and-not-covered-faces-dataset</a></h6>
+<h6><strong>Link to dataset used</strong> <a target="_blank" rel="noopener noreferrer" href="https://www.kaggle.com/datasets/chinmayjain7488/covered-and-not-covered-faces-dataset/settings">https://www.kaggle.com/datasets/chinmayjain7488/covered-and-not-covered-faces-dataset</a></h6>
 
 ## Conclusion
 
